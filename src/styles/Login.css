@@ -1,0 +1,30 @@
+.loginform{
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.loginform input[type="text"],input[type="password"]{
+    height: 30px;
+    width: 50%;
+    /* border: 1px solid gray; */
+}
+.loginform input[type="submit"]{
+    padding: 5px 10px;
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+}
+.loginform input[type="submit"]:hover{
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+    font-weight: bold;
+}
