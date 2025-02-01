@@ -1,0 +1,15 @@
+/* .quizform{
+    border: 2px solid #ddd;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+} */
+.quiz-list{
+    border: 2px solid #ddd;
+    margin: auto; 
+    width: 60%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

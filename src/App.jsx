@@ -8,6 +8,7 @@ import Home from './components/Home'
 import Quiz from './components/Quiz'
 import Result from './components/Result'
 import Login from './components/Login'
+import PrivateRoute from './components/PrivateRoute'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +21,11 @@ function App() {
             <Route path='/' element={<Home/>}></Route>
             <Route path='/quiz' element={<Quiz/>}></Route>
             <Route path='/result' element={<Result/>}></Route>
-            <Route path='/login' element={<Login/>}></Route>
+            <Route path='/login' element={
+              // <PrivateRoute>
+              <Login/>
+            //  </PrivateRoute>
+             }></Route>
           </Routes>
        </div>
     </>
