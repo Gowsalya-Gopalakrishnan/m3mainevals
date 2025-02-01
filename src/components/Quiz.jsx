@@ -60,17 +60,18 @@ const Quiz = () => {
                                 <div className='quiz-list'>
                                     <h2>{ele.question}</h2>
 
-
+                                    <p>{ele.options}</p>
                                     <select type='radio' onChange={handleChange}>
                                         {
-                                            option.length >= 0 && option.map((opt) => {
+                                             ele.options.map((opt) => {
                                                 <ul>
-                                                    <li>{map.options}</li>
+                                                    <li>{opt.options}</li> 
+                                                    {/* <option>{opt.options}</option> */}
                                                 </ul>
-                                            })
-                                        }
+                                            }) 
+                                         }
 
-                                    </select>
+                                     </select>
 
 
                                     <button onClick={() => handleShowAnswer()}>
