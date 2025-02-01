@@ -1,0 +1,16 @@
+.navbar-cont{
+    border: 2px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.navbar-links{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.navbar-links:hover{
+    color: white;
+    background-color: blue;
+}
